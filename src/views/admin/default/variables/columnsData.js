@@ -36,22 +36,31 @@ export const columnsDataComplex = [
   },
 ];
 export const columnsDataComplexPrediction = [
-  {
-    Header: "NAME",
+  
+ {
+    Header: "GENRE NAME",
     accessor: "name",
   },
+  
   {
-    Header: "STATUS",
-    accessor: "status",
-  },
-  {
-    Header: "DOWNLOADS",
+    Header: "AVERAGE RETENTION RATE",
     accessor: "date",
   },
   
   {
-    Header: "VOLUME",
+    Header: "BREAK-EVEN POINT",
     accessor: "progress",
+  },
+  {
+    Header: "SUCCESS PROBABIILITY",
+    accessor: "status",
+  },
+  {
+    Header: "ROI",
+    accessor: "roi",
   },
 ];
 
+/*
+
+*/
